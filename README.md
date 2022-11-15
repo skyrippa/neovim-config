@@ -26,5 +26,22 @@ I also added a note to remember myself for when I'm setting up Neovim on another
 Ruby docs and autocomplete available for me. This is because nowadays I mainly work with the Ruby language, but I'm sure there are many other options
 available.
 
+## Appearance
+See below a bit of what we can do with Neovim:
+- Tree explorer and Solargraph loading
+![image](https://user-images.githubusercontent.com/45849955/202040363-27b684d4-55ea-4f88-b28c-f7cf17880760.png)
+
+- Searching files
+![image](https://user-images.githubusercontent.com/45849955/202040432-fa68d25c-a0e6-43ac-9e88-2a406b33fb2c.png)
+
+- Insert mode<br>
+![image](https://user-images.githubusercontent.com/45849955/202041034-bfd7c82a-9e86-4b94-96de-86e7ba4fb8c7.png)
+
+- Coc.nvim + Solargraph autocomplete options with docs
+![image](https://user-images.githubusercontent.com/45849955/202041810-01d3f803-8080-4880-ace0-32c576a66e9d.png)
+
+- Vim-fugitive's amazing git wrapper
+![image](https://user-images.githubusercontent.com/45849955/202042324-5eff016f-8fbf-421b-be51-b1dafe32a341.png)
+
 ### Inspirations: 
  * [A sensible NeoVim configuration](https://alicegg.tech/2022/04/20/vim-plugins.html)
