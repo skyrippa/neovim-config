@@ -54,3 +54,6 @@ Plug 'EdenEast/nightfox.nvim'
 Plug 'cseelus/vim-colors-lucid'
 call plug#end()
 
+" To setup solargraph with coc.nvim, run the command below
+" :CocInstall coc-solargraph
+
