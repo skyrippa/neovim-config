@@ -41,19 +41,28 @@ call plug#begin('~/.vim/plugged')
 Plug 'ctrlpvim/ctrlp.vim'
 " Git wrapper
 Plug 'tpope/vim-fugitive'
-" Git status of current file
+" Status of current file
 Plug 'vim-airline/vim-airline'
 " File indentation on the fly
 Plug 'tpope/vim-sleuth'
 " Powerful extension host for IDE-like experience, with
 " autocompletion, linting, formatting, LSP and many other features
 Plug 'neoclide/coc.nvim', {'branch':'release'}
+" Tree explorer
+Plug 'preservim/nerdtree'
 " Nightfox theme
 Plug 'EdenEast/nightfox.nvim'
 " Lucid Theme
 Plug 'cseelus/vim-colors-lucid'
 call plug#end()
 
+" NERDTree shortcuts for tree focus, open, toggle and finding
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
+
 " To setup solargraph with coc.nvim, run the command below
 " :CocInstall coc-solargraph
+
 
