@@ -56,6 +56,8 @@ Plug 'EdenEast/nightfox.nvim'
 Plug 'cseelus/vim-colors-lucid'
 call plug#end()
 
+colorscheme nightfox
+
 " NERDTree shortcuts for tree focus, open, toggle and finding
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
@@ -64,5 +66,4 @@ nnoremap <C-f> :NERDTreeFind<CR>
 
 " To setup solargraph with coc.nvim, run the command below
 " :CocInstall coc-solargraph
-
 
