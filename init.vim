@@ -1,4 +1,5 @@
 " Configs from https://alicegg.tech/2022/04/20/vim-plugins.html
+" Place this configuration file at ~/.config/nvim/init.vim
 
 " Map :term command to Ctrl+\ Ctrl+n
 " This command exits the Neovim's terminal emulator
