@@ -37,6 +37,7 @@ set exrc
 :filetype plugin on
 
 " Plugins
+" Remember to install vim-plug to manage plugins (https://github.com/junegunn/vim-plug)
 call plug#begin('~/.vim/plugged')
 " File search plugin
 Plug 'ctrlpvim/ctrlp.vim'
